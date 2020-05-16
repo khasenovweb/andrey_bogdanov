@@ -1,0 +1,129 @@
+{% set title = 'Главная' %} {% extends 'layouts/_main.html' %} {% block content
+%}
+
+<!--============================= about-as ============================================-->
+<div class="about-as">
+    <div class="container">
+        <div
+            class="about-as__image"
+            style="background-image: url(img/about-as.png);"
+        ></div>
+        <div class="about-as__text">
+            <div class="about-as__title">
+                Привет! Меня зовут Андрей Богданов.
+            </div>
+            <div class="about-as__desc">
+                <p>
+                    Разнообразный и богатый опыт говорит нам, что
+                    высококачественный прототип будущего проекта в значительной
+                    степени обусловливает важность приоритизации разума над
+                    эмоциями. Сложно сказать, почему базовые сценарии поведения
+                    пользователей формируют глобальную экономическую сеть и при
+                    этом - обнародованы.
+                </p>
+                <p>
+                    Не следует, однако, забывать, что дальнейшее развитие
+                    различных форм деятельности, а также свежий взгляд на
+                    привычные вещи - безусловно открывает новые горизонты для
+                    новых предложений. Кстати, базовые сценарии поведения
+                    пользователей описаны максимально подробно.
+                </p>
+            </div>
+            <div class="about-as__social">
+                <a href="">
+                    <img src="img/vk.svg" alt="" />
+                </a>
+                <a href="">
+                    <img src="img/instagram.svg" alt="" />
+                </a>
+                <a href="">
+                    <img src="img/fb.svg" alt="" />
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--==========================END about-as ============================================-->
+<!--========================== portfolio ============================================-->
+<div class="portfolio">
+    <div class="container">
+        <div class="section__title">Мои работы</div>
+    </div>
+    <div class="portfolio__items">
+        <!-- portfolio__item -->
+        <a
+            data-fancybox="gallery"
+            data-src="img/1.jpg"
+            href=""
+            class="portfolio__item"
+            style="background-image: url(img/1.jpg);"
+        ></a>
+        <!--END portfolio__item -->
+        <!-- portfolio__item -->
+        <a
+            data-fancybox="gallery"
+            data-src="img/2.jpg"
+            href=""
+            class="portfolio__item"
+            style="background-image: url(img/2.jpg);"
+        ></a>
+        <!--END portfolio__item -->
+        <!-- portfolio__item -->
+        <a
+            data-fancybox="gallery"
+            data-src="img/3.jpg"
+            href=""
+            class="portfolio__item"
+            style="background-image: url(img/3.jpg);"
+        ></a>
+        <!--END portfolio__item -->
+        <!-- portfolio__item -->
+        <a
+            data-fancybox="gallery"
+            data-src="img/1.jpg"
+            href=""
+            class="portfolio__item"
+            style="background-image: url(img/1.jpg);"
+        ></a>
+        <!--END portfolio__item -->
+        <!-- portfolio__item -->
+        <a
+            data-fancybox="gallery"
+            data-src="img/2.jpg"
+            href=""
+            class="portfolio__item"
+            style="background-image: url(img/2.jpg);"
+        ></a>
+        <!--END portfolio__item -->
+        <!-- portfolio__item -->
+        <a
+            data-fancybox="gallery"
+            data-src="img/3.jpg"
+            href=""
+            class="portfolio__item"
+            style="background-image: url(img/3.jpg);"
+        ></a>
+        <!--END portfolio__item -->
+        <!-- portfolio__item -->
+        <a
+            data-fancybox="gallery"
+            data-src="img/1.jpg"
+            href=""
+            class="portfolio__item"
+            style="background-image: url(img/1.jpg);"
+        ></a>
+        <!--END portfolio__item -->
+        <!-- portfolio__item -->
+        <a
+            data-fancybox="gallery"
+            data-src="img/1.jpg"
+            href=""
+            class="portfolio__item"
+            style="background-image: url(img/2.jpg);"
+        ></a>
+        <!--END portfolio__item -->
+    </div>
+    <a href="/" class="portfolio__more">Смотреть все работы</a>
+</div>
+<!--==========================END portfolio =========================================-->
+{% endblock %}
