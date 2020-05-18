@@ -45,4 +45,7 @@
   input[type="file"] {
     font-size: 12px;
   }
+  .portfolio__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
