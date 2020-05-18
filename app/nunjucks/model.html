@@ -1,11 +1,51 @@
-{% set title = 'Главная' %} {% extends 'layouts/_main.html' %} {% block content
+{% set title = 'Моделям' %} {% extends 'layouts/_main.html' %} {% block content
 %}
 
 <!--========================== model ===================================-->
 <div class="model page">
-    <div class="container">
-        <div class="section__title">Моделям</div>
-    </div>
+  <div class="container">
+    <div class="section__title">Моделям</div>
+    <form action="">
+      <input type="text" placeholder="Год рождения" />
+      <input type="text" placeholder="ФИО" />
+      <input type="text" placeholder="E-mail" />
+      <input type="text" placeholder="Телефон" />
+      <input type="text" placeholder="Рост" />
+      <input type="text" placeholder="Вес" />
+      <input type="text" placeholder="Формы" />
+      <input type="text" placeholder="Размер ног" />
+      <input type="text" placeholder="Хочу оплату в час руб" />
+      <label for="checkbox-1" class="checkbox">
+        <input id="checkbox-1" type="checkbox" />
+        <div class="checkbox__box"></div>
+        <span class="checkbox__name">снимаюсь в одежде</span>
+      </label>
+      <label for="checkbox-2" class="checkbox">
+        <input id="checkbox-2" type="checkbox" />
+        <div class="checkbox__box"></div>
+        <span class="checkbox__name">снимаюсь в купальнике</span>
+      </label>
+      <label for="checkbox-3" class="checkbox">
+        <input id="checkbox-3" type="checkbox" />
+        <div class="checkbox__box"></div>
+        <span class="checkbox__name">снимаюсь топлес</span>
+      </label>
+      <label for="checkbox-4" class="checkbox">
+        <input id="checkbox-4" type="checkbox" />
+        <div class="checkbox__box"></div>
+        <span class="checkbox__name">снимаюсь ню</span>
+      </label>
+      <label for="checkbox-5" class="checkbox">
+        <input id="checkbox-5" type="checkbox" />
+        <div class="checkbox__box"></div>
+        <span class="checkbox__name">готова сниматься TFP</span>
+      </label>
+      <input type="file" />
+      <input type="file" />
+      <input type="file" />
+      <button>Отправить</button>
+    </form>
+  </div>
 </div>
 <!--==========================END model ================================-->
 

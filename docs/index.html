@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+</head>
+
+<body>
+    <!--============================= topimgblock ============================================-->
+    <div class="topimgblock" style="background-image: url(img/topimg.jpg);"></div>
+    <!--=============================END topimgblock =========================================-->
+    <!--============================= navbar ============================================-->
+    <div class="navbar">
+        <div class="container">
+            <a href="/" class="navbar__logo">
+                <img src="img/logo.png" alt="" />
+            </a>
+            <ul class="navbar__links">
+                <li><a href="/">Обо мне</a></li>
+                <li><a href="/portfolio.html">Портфолио</a></li>
+                <li><a href="/price.html">Прайс</a></li>
+                <li><a href="/apparat.html">Аппаратура</a></li>
+                <li><a href="/model.html">Моделям</a></li>
+                <li><a href="/contacts.html">Контакты</a></li>
+            </ul>
+            <div class="navbar__hamburger" data-fancybox data-src="#modal">
+                <img src="img/hamburger.svg" alt="" />
+            </div>
+        </div>
+    </div>
+    <!--=============================END navbar =========================================-->
+    <!--============================= about-as ============================================-->
+    <div class="about-as">
+        <div class="container">
+            <div class="about-as__image" style="background-image: url(img/about-as.png);"></div>
+            <div class="about-as__text">
+                <div class="about-as__title"> Привет! Меня зовут Андрей Богданов. </div>
+                <div class="about-as__desc">
+                    <p> Разнообразный и богатый опыт говорит нам, что высококачественный прототип будущего проекта в значительной степени обусловливает важность приоритизации разума над эмоциями. Сложно сказать, почему базовые сценарии поведения пользователей формируют глобальную экономическую сеть и при этом - обнародованы. </p>
+                    <p> Не следует, однако, забывать, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для новых предложений. Кстати, базовые сценарии поведения пользователей описаны максимально подробно. </p>
+                </div>
+                <div class="about-as__social">
+                    <a href="">
+                        <img src="img/vk.svg" alt="" />
+                    </a>
+                    <a href="">
+                        <img src="img/instagram.svg" alt="" />
+                    </a>
+                    <a href="">
+                        <img src="img/fb.svg" alt="" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--==========================END about-as ============================================-->
+    <!--========================== portfolio ============================================-->
+    <div class="portfolio">
+        <div class="container">
+            <div class="section__title">Мои работы</div>
+        </div>
+        <div class="portfolio__items">
+            <!-- portfolio__item -->
+            <a data-fancybox="gallery" data-src="img/1.jpg" href="" class="portfolio__item" style="background-image: url(img/1.jpg);"></a>
+            <!--END portfolio__item -->
+            <!-- portfolio__item -->
+            <a data-fancybox="gallery" data-src="img/2.jpg" href="" class="portfolio__item" style="background-image: url(img/2.jpg);"></a>
+            <!--END portfolio__item -->
+            <!-- portfolio__item -->
+            <a data-fancybox="gallery" data-src="img/3.jpg" href="" class="portfolio__item" style="background-image: url(img/3.jpg);"></a>
+            <!--END portfolio__item -->
+            <!-- portfolio__item -->
+            <a data-fancybox="gallery" data-src="img/1.jpg" href="" class="portfolio__item" style="background-image: url(img/1.jpg);"></a>
+            <!--END portfolio__item -->
+            <!-- portfolio__item -->
+            <a data-fancybox="gallery" data-src="img/2.jpg" href="" class="portfolio__item" style="background-image: url(img/2.jpg);"></a>
+            <!--END portfolio__item -->
+            <!-- portfolio__item -->
+            <a data-fancybox="gallery" data-src="img/3.jpg" href="" class="portfolio__item" style="background-image: url(img/3.jpg);"></a>
+            <!--END portfolio__item -->
+            <!-- portfolio__item -->
+            <a data-fancybox="gallery" data-src="img/1.jpg" href="" class="portfolio__item" style="background-image: url(img/1.jpg);"></a>
+            <!--END portfolio__item -->
+            <!-- portfolio__item -->
+            <a data-fancybox="gallery" data-src="img/1.jpg" href="" class="portfolio__item" style="background-image: url(img/2.jpg);"></a>
+            <!--END portfolio__item -->
+        </div>
+        <a href="/" class="portfolio__more">Смотреть все работы</a>
+    </div>
+    <!--==========================END portfolio =========================================-->
+    <!--========================== footer =========================================-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer__copyriht">© 2020 Андрей Богданов</div>
+        </div>
+    </div>
+    <!--==========================END footer ======================================-->
+    <!--========================== modals ======================================-->
+    <div style="display: none;" id="modal" class="mobile__navbar">
+        <ul>
+            <li><a href="/">Обо мне</a></li>
+            <li><a href="/portfolio.html">Портфолио</a></li>
+            <li><a href="/price.html">Прайс</a></li>
+            <li><a href="/apparat.html">Аппаратура</a></li>
+            <li><a href="/model.html">Моделям</a></li>
+            <li><a href="/contacts.html">Контакты</a></li>
+        </ul>
+    </div>
+    <!--==========================END modals ======================================-->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

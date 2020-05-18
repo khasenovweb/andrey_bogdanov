@@ -1,0 +1,48 @@
+@media screen and (max-width: 1200px) {
+  .topimgblock {
+    display: none;
+  }
+  .navbar__links {
+    display: none;
+  }
+  .navbar__hamburger {
+    display: block;
+  }
+  .about-as .container {
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+  }
+  .about-as__image {
+    width: 380px;
+    display: none;
+  }
+  .about-as {
+    padding: 35px 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .navbar__logo {
+    width: 200px;
+  }
+  .navbar__logo img {
+    width: 100%;
+  }
+  .about-as__title {
+    font-size: 30px;
+  }
+  .section__title {
+    font-size: 30px;
+  }
+  td {
+    padding: 10px 20px;
+  }
+  .apparat__items {
+    grid-template-columns: 1fr;
+  }
+  .model form {
+    width: 100%;
+  }
+  input[type="file"] {
+    font-size: 12px;
+  }
+}

@@ -3,10 +3,12 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Главная</title>
+    <meta name="viewport" content="width=device-width" />
+    <title>Моделям</title>
     <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
 </head>
 
 <body>
@@ -25,8 +27,11 @@
                 <li><a href="/price.html">Прайс</a></li>
                 <li><a href="/apparat.html">Аппаратура</a></li>
                 <li><a href="/model.html">Моделям</a></li>
-                <li><a href="/">Контакты</a></li>
+                <li><a href="/contacts.html">Контакты</a></li>
             </ul>
+            <div class="navbar__hamburger" data-fancybox data-src="#modal">
+                <img src="img/hamburger.svg" alt="" />
+            </div>
         </div>
     </div>
     <!--=============================END navbar =========================================-->
@@ -34,6 +39,46 @@
     <div class="model page">
         <div class="container">
             <div class="section__title">Моделям</div>
+            <form action="">
+                <input type="text" placeholder="Год рождения" />
+                <input type="text" placeholder="ФИО" />
+                <input type="text" placeholder="E-mail" />
+                <input type="text" placeholder="Телефон" />
+                <input type="text" placeholder="Рост" />
+                <input type="text" placeholder="Вес" />
+                <input type="text" placeholder="Формы" />
+                <input type="text" placeholder="Размер ног" />
+                <input type="text" placeholder="Хочу оплату в час руб" />
+                <label for="checkbox-1" class="checkbox">
+                    <input id="checkbox-1" type="checkbox" />
+                    <div class="checkbox__box"></div>
+                    <span class="checkbox__name">снимаюсь в одежде</span>
+                </label>
+                <label for="checkbox-2" class="checkbox">
+                    <input id="checkbox-2" type="checkbox" />
+                    <div class="checkbox__box"></div>
+                    <span class="checkbox__name">снимаюсь в купальнике</span>
+                </label>
+                <label for="checkbox-3" class="checkbox">
+                    <input id="checkbox-3" type="checkbox" />
+                    <div class="checkbox__box"></div>
+                    <span class="checkbox__name">снимаюсь топлес</span>
+                </label>
+                <label for="checkbox-4" class="checkbox">
+                    <input id="checkbox-4" type="checkbox" />
+                    <div class="checkbox__box"></div>
+                    <span class="checkbox__name">снимаюсь ню</span>
+                </label>
+                <label for="checkbox-5" class="checkbox">
+                    <input id="checkbox-5" type="checkbox" />
+                    <div class="checkbox__box"></div>
+                    <span class="checkbox__name">готова сниматься TFP</span>
+                </label>
+                <input type="file" />
+                <input type="file" />
+                <input type="file" />
+                <button>Отправить</button>
+            </form>
         </div>
     </div>
     <!--==========================END model ================================-->
@@ -44,6 +89,18 @@
         </div>
     </div>
     <!--==========================END footer ======================================-->
+    <!--========================== modals ======================================-->
+    <div style="display: none;" id="modal" class="mobile__navbar">
+        <ul>
+            <li><a href="/">Обо мне</a></li>
+            <li><a href="/portfolio.html">Портфолио</a></li>
+            <li><a href="/price.html">Прайс</a></li>
+            <li><a href="/apparat.html">Аппаратура</a></li>
+            <li><a href="/model.html">Моделям</a></li>
+            <li><a href="/contacts.html">Контакты</a></li>
+        </ul>
+    </div>
+    <!--==========================END modals ======================================-->
     <script src="js/jquery.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
