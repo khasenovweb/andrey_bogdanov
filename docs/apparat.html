@@ -87,7 +87,9 @@
         <div class="section__title">Заявка на съемку</div>
         <form action="">
             <input type="text" placeholder="Ваше имя" />
-            <input type="text" placeholder="Ваш номер телефона" />
+            <input data-mask="phone" type="text" placeholder="Ваш номер телефона" />
+            <input data-mask="date" type="text" placeholder="Дата съемки" />
+            <textarea name="" id="" cols="30" rows="5" placeholder="Что будем снимать?"></textarea>
             <button>Отправить</button>
         </form>
     </div>
@@ -107,6 +109,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/mask.js"></script>
     <script src="js/main.js"></script>
 </body>
 

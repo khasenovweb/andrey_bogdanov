@@ -297,13 +297,15 @@ form {
   grid-template-rows: repeat(auto-fill, minmax(max-content, 0));
   grid-gap: 30px;
 }
-input {
+input,
+textarea {
   padding: 20px 30px;
   border: 1px solid #e6e6e6;
   outline: none;
   font-size: 16px;
 }
-input:focus {
+input:focus,
+textarea:focus {
   border: 1px solid #0066ff;
 }
 .checkbox {
